@@ -1,3 +1,34 @@
+
+<h2> MedPoint Plan </h2>
+Breakdown of MedPoint environments / deploys:
+<ul>
+<li> Dev Subscription (MSDN) 
+<ol>
+    <li>1 WAF, internal only apps
+    <li>1 SQL instance pool, two instances
+</ol>
+
+<li> Test Subscription (MSDN) – 1 SQL instance pool, two instances
+<ol>
+<li>1 WAF, internal only apps
+    <li>1 SQL instance pool, two instances
+</ol>
+
+
+<li> Staging Subscription (MSDN) – 2 SQL instances
+<ol>
+    <li>1 WAF, public apps
+    <li>1 SQL instance pool, two instances
+</ol>
+
+ <li> Prod Subscription (with hybrid benefit) SQL 1 instance
+    <ol>
+    <li>1 WAF, public apps
+    <li>1 SQL instance pool, two instances
+</ol>
+</ul>
+
+
 <h2>Secure PaaS in Azure</h2>
 This solution deploys:
 <ul>
